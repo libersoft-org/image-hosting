@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>{TITLE}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+  <link rel="shortcut icon" href="/favicon.svg" />
+  <script src="/functions.js"></script>
+ </head>
+ <body>
+  <div id="content">
+   <div class="frame">
+    <h1 class="text-center">Upload your image files:</h1>
+    <input id="files" type="file" accept=".jpg, .jpeg, .jfif, .pjpeg, .pjp, .png, .apng, .bmp, .gif, .svg, .ico, .webp, .avif" multiple />
+    <label id="files-label" for="files" class="button">Choose files</label>
+    <table id="files-list" style="display: none"></table>
+    <a id="upload" class="button" style="display: none" onclick="upload()">Upload</a>
+   </div>
+  </div>
+ </body>
+</html>
